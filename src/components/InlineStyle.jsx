@@ -1,24 +1,24 @@
 export const InlineStyle = () => {
   const container = {
-    border: "2px solid #333",
-    borderRadius: "8px",
-    padding: "8px",
-    margin: "8px",
-    display: "flex",
-    justifyContent: "space-around",
-    alignItems: "center"
+    border: '2px solid #333',
+    borderRadius: '8px',
+    padding: '8px',
+    margin: '8px',
+    display: 'flex',
+    justifyContent: 'space-around',
+    alignItems: 'center'
   };
   const title = {
-    margin: "0",
-    color: "#333",
-    fontWeight: "bold"
+    margin: '0',
+    color: '#333',
+    fontWeight: 'bold'
   };
   const button = {
-    border: "0",
-    borderRadius: "8px",
-    backgroundColor: "blue",
-    padding: "8px",
-    color: "#fff"
+    border: '0',
+    borderRadius: '8px',
+    backgroundColor: 'blue',
+    padding: '8px',
+    color: '#fff'
   };
 
   return (
