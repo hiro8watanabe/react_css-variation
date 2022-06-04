@@ -1,5 +1,6 @@
 import { CsssModules } from './components/CssModules';
 import { InlineStyle } from './components/InlineStyle';
+import { StyledJsx } from './components/StyledJsx';
 import './styles.css';
 
 export const App = () => {
@@ -7,6 +8,7 @@ export const App = () => {
     <div className="App">
       <InlineStyle />
       <CsssModules />
+      <StyledJsx />
     </div>
   );
 };
